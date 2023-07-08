@@ -22,7 +22,7 @@ public class OrderOneWinningStrategy implements GameWinningStrategy {
         }
     }
 
-
+    //checking winner
     @Override
     public boolean checkWinner(Board board, Player player, Cell cell) {
         char symbol = cell.getPlayer().getSymbol();
